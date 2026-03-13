@@ -6,6 +6,7 @@ import { dirname } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+
 const generatePokemonsJson = () => {
     try {
         // Convertir la liste en JSON avec une indentation de 2 espaces
